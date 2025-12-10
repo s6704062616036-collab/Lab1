@@ -7,7 +7,7 @@ int main() {
  
     scanf("%f", &p1);
     Discount_A = p1 * 0.05;
-    Promotion_A = (p1 - Discount_A) * 1.07;  // ??? VAT
+    Promotion_A = (p1 - Discount_A) * 1.07;  
     printf("Promotion A: Pay = %.2f\n", Promotion_A);
 
 
@@ -24,3 +24,4 @@ int main() {
 
     return 0;
 }
+
